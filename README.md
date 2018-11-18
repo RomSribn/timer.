@@ -1,7 +1,7 @@
 # timer.
-Создайте скрипт секундомера.  
-  По ссылке можно посмотреть пример выбрав Stopwatch http://www.online-stopwatch.com/full-screen-stopwatch/
-  Готовый пример: https://romsribn.github.io/timer./
+Задача: создать скрипт секундомера.  
+  
+  Финальный пример: https://romsribn.github.io/timer./
   
   Изначально в HTML есть разметка:
   ```
