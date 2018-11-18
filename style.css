@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #768d9ec2;
+}
+
+.timer {
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 0 36px 27px rgb(255, 255, 255);
+    color: #212121;
+    border-radius: 27px;
+    background-color: #fff;
+}
+
+.clockface {
+  margin-bottom: 15px;
+  font-family: "Roboto Mono", monospace;
+  font-size: 80px;
+}
+
+.timer-btn {
+  display: inline;
+  text-transform: uppercase;
+  border: 0;
+  background-color: #212121;
+  color: #ffffff;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 28px;
+  border-radius: 2px;
+  font-family: "Roboto", sans-serif;
+  border-radius: 5px;
+  outline: none;
+}
+
+.active {
+  background-color: #2196F3;
+}
