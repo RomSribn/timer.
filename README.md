@@ -4,15 +4,15 @@
   Готовый пример: https://romsribn.github.io/timer./
   
   Изначально в HTML есть разметка:
-  
-  //<div class="stopwatch">
-    //<p class="time js-time">00:00.0</p>
-    //<button class="btn js-start">Start</button>
-    //<button class="btn js-take-lap">Lap</button>
-    //<button class="btn js-reset">Reset</button>
-  //</div>
-  //<ul class="laps js-laps"></ul>
-  
+  ```
+  <div class="stopwatch">
+    <p class="time js-time">00:00.0</p>
+      <button class="btn js-start">Start</button>
+      <button class="btn js-take-lap">Lap</button>
+      <button class="btn js-reset">Reset</button>
+  </div>
+  <ul class="laps js-laps"></ul>
+  ```
   Добавьте следующий функционал:
   
   - При нажатии на кнопку button.js-start, запускается таймер, который считает время 
